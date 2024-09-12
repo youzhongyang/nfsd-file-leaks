@@ -4,6 +4,8 @@ Reproducing nfsd file leaks.
 # Summary
   The C program readfile.c is created to start a number of threads, each one reads a chunk of file content at a different offset repeatedly (until the # of loops finishes).
 
+  Testing line added.
+
 # Prerequsites
 * Two hosts (virtual or physical), one as nfs server, another nfs client.
 * Add "slub_debug=U,nfsd_file" to the kernel cmdline of the server machine so it's easy to examine the 'nfsd_file' kmem_cache using utility like 'crash'.

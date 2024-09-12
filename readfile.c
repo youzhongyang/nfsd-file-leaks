@@ -146,3 +146,7 @@ done:
         printf("DONE.\n");
         return(ret);
 }
+
+/* comment line 1
+ * comment line 2 
+ */
